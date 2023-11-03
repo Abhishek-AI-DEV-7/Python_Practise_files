@@ -5,7 +5,7 @@ def main(participants, res):
     return f"{res} {participants}"
 
 def game():
-    participants = random.choice(["Abhishek", "Srinidhi", "Lucky", "Vinnu"])
+    participants = random.choice(["Abhishek", "Ashwin", "Lucky", "Vinnu"])
     res = "The best fit person you are searching for: "
     return participants, res
 
